@@ -1,0 +1,35 @@
+.slide-container {
+  padding: 0 !important;
+  width: 100% !important;
+}
+.react-slideshow-container {
+  padding: 0 !important;
+  width: 100% !important;
+}
+.each-slide > div {
+  height: 500px;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.react-slideshow-container svg {
+  fill: goldenrod;
+}
+.react-slideshow-container button {
+  width: 40px !important;
+  height: 40px !important;
+  position: relative;
+}
+.react-slideshow-container button:first-child {
+  left: 2rem;
+}
+.react-slideshow-container button:last-child {
+  right: 2rem;
+}
+@media only screen and (max-width: 700px) {
+  .each-slide > div {
+    height: 300px;
+  }
+}

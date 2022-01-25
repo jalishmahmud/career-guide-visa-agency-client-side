@@ -1,0 +1,30 @@
+.icons svg {
+  fill: #fff;
+  width: 3.4rem;
+  background-color: black;
+  height: 3.4rem;
+  padding: 1rem;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 300ms;
+  position: relative;
+  right: 3rem;
+}
+.icons svg:hover {
+  background-color: red;
+  right: 0rem;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: tomato;
+  width: 30%;
+  padding: 3rem;
+  margin: 0 auto;
+  transition: all 0.3s;
+}
+.icons:hover {
+  background-color: goldenrod;
+  width: 50%;
+}
