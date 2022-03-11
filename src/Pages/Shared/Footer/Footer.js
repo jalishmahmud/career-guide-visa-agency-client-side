@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import careerGuidelogo from "../../../images/career-guide-logo.png";
+import careerGuideFooterLogo from "../../../images/career-guide-footer-logo.png";
 import "./Footer.css";
 const Footer = () => {
   return (
@@ -8,12 +8,19 @@ const Footer = () => {
       <Container>
         <Row className="footer-content pt-3">
           <Col className="py-4" xs={12} md={3}>
-            <h4>About Security Camera</h4>
-            <img className="mb-3" src={careerGuidelogo} alt="" />
+            <h4>About Us</h4>
+            <img
+              className="mb-3 w-75 img-fluid"
+              src={careerGuideFooterLogo}
+              alt=""
+            />
             <p>
-              Encounter the most bewitching wines around the world with a
-              knowledgeable wine sommelier to experience the sublime with just a
-              sip. Relish from the most
+              Established in 2019, Career Guide International is a
+              student-oriented organization dedicated to helping individuals
+              continue their academic journey beyond national borders.{" "}
+              <a className="" href="/">
+                learn more
+              </a>
             </p>
           </Col>
 
@@ -29,44 +36,51 @@ const Footer = () => {
             <h4>Customer Service</h4>
             <ul>
               <li>
-                <a to="/">About Us</a>
+                <a href="/">About Us</a>
               </li>
               <li>
-                <a to="/">Careers</a>
+                <a href="/">Careers</a>
               </li>
               <li>
-                <a to="/">Help And FAQs</a>
+                <a href="/">Help And FAQs</a>
               </li>
               <li>
-                <a to="/">Popular Items</a>
+                <a href="/">Popular Services</a>
               </li>
               <li>
-                <a to="/">Corporate Support</a>
+                <a href="/">Corporate Support</a>
               </li>
               <li>
-                <a to="/">Privacy Policy</a>
+                <a href="/">Privacy Policy</a>
               </li>
             </ul>
           </Col>
-          <Col className="py-4" xs={12} md={3}>
+          <Col className="py-4 contact-info" xs={12} md={3}>
             <h4>Contact Info</h4>
             <h6>ADDRESS:</h6>
-            <p>000 Street Name, City, USA</p>
+            <p>
+              R H Home Center, Suite-327, 3rd Floor,74/b/1, Green Road,
+              Farmgate, Dhaka, Dhaka Division, Bangladesh
+            </p>
 
             <h6>PHONE:</h6>
-            <p>(123) 000-0000</p>
+
+            <a href="tel:+8801718229344">(+88) 01718 229344</a>
 
             <h6>EMAIL:</h6>
-            <p>yourmail@mail.com</p>
+
+            <a href="mailto:contact@careerguide.international">
+              contact@careerguide.international
+            </a>
 
             <h6>WORKING DAYS/HOURS:</h6>
-            <p>Mon - Sun / 9:00 AM - 8:00 PM</p>
+            <p>Sun - Thu / 10:00 AM - 8:00 PM</p>
           </Col>
         </Row>
         <Row>
           <p className="copyrhgit text-center py-3">
-            Career Guide International &copy; Security Camera, All Rights
-            Reserved. Developed By : Jalish Mahmud
+            Copyright &copy; Career Guide International, All Rights Reserved.
+            Developed By : <a href="/">Jalish Mahmud</a>
           </p>
         </Row>
       </Container>
