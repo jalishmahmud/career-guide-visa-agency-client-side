@@ -19,3 +19,8 @@ code {
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+:root {
+  --brand-color: #e12429;
+  --blue-color: #253049;
+  --text-color: #282828;
+}

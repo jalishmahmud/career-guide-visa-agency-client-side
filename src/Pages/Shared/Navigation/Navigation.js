@@ -22,9 +22,10 @@ const Navigation = () => {
           <Nav.Link href="/services">Services</Nav.Link>
           <Nav.Link href="/contact">Contact</Nav.Link>
           <Nav.Link href="/login">Login</Nav.Link>
-          <Button className="custom-btn" variant="primary">
-            <Nav.Link href="/login">Get Started</Nav.Link>
-          </Button>
+
+          <Nav.Link as={Button} className="custom-btn" href="/login">
+            Apply Online
+          </Nav.Link>
         </Navbar.Collapse>
       </Container>
     </Navbar>

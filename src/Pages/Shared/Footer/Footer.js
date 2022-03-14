@@ -17,7 +17,7 @@ const Footer = () => {
             <p>
               Established in 2019, Career Guide International is a
               student-oriented organization dedicated to helping individuals
-              continue their academic journey beyond national borders.{" "}
+              continue their academic journey beyond national borders.
               <a className="" href="/">
                 learn more
               </a>

@@ -1,0 +1,46 @@
+.how-we-work-wrapper {
+  margin-bottom: 50px;
+}
+.section-title {
+  margin: 50px 0;
+}
+
+.section-title h2 {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.section-title h5 {
+  font-size: 20px;
+  font-weight: 500;
+}
+.single-service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.single-service span {
+  font-size: 35px;
+  width: 100px;
+  height: 85px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 5px 30px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  margin-bottom: 30px;
+  color: #282828;
+  transition: all 400ms;
+}
+.single-service:hover span {
+  font-size: 50px;
+  background-color: var(--brand-color);
+
+  color: #fff;
+}
+.single-service h4 {
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
