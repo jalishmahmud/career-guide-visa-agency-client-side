@@ -1,5 +1,4 @@
 .how-we-work-wrapper {
-  margin-bottom: 50px;
 }
 .section-title {
   margin: 50px 0;
@@ -26,14 +25,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 5px 5px 30px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 5px 5px 30px 5px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
   margin-bottom: 30px;
   color: #282828;
   transition: all 400ms;
 }
 .single-service:hover span {
-  font-size: 50px;
+  font-size: 40px;
   background-color: var(--brand-color);
 
   color: #fff;
