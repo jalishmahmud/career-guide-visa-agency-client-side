@@ -1,7 +1,16 @@
 .how-we-work-wrapper {
+  margin-top: 100px;
+  background-image: url("../../../images/how-we-works-bg.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 90px 0;
+}
+.how-we-work-wrapper .section-title {
+  color: #fff;
 }
 .section-title {
-  margin: 50px 0;
+  margin-bottom: 60px;
 }
 
 .section-title h2 {
@@ -25,6 +34,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: var(--silver-color);
+
   box-shadow: 5px 5px 30px 5px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
   margin-bottom: 30px;
@@ -42,4 +53,5 @@
   line-height: 26px;
   font-weight: 500;
   margin-bottom: 30px;
+  color: #fff;
 }

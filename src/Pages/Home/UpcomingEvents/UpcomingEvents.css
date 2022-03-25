@@ -1,3 +1,55 @@
 .upcoming-events-wrapper {
   margin-top: 100px;
 }
+.upcoming-events-wrapper .single-event {
+  margin-bottom: 30px;
+  padding: 30px;
+  border-left: 5px solid var(--brand-color);
+  min-height: 312px;
+}
+.upcoming-events-wrapper .single-event.red {
+  background-color: var(--blue-color);
+  color: #fff;
+}
+.upcoming-events-wrapper .single-event.silver {
+  background-color: var(--silver-color);
+  color: #282828;
+}
+.upcoming-events-wrapper .single-event h5:first-of-type {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.upcoming-events-wrapper .single-event h5:last-of-type {
+  font-size: 38px;
+}
+.upcoming-events-wrapper .single-event h3 {
+  font-size: 24px;
+  line-height: 34px;
+  margin: 30px 0;
+}
+.upcoming-events-wrapper .single-event .time-and-media {
+  display: flex;
+  justify-content: space-between;
+}
+.upcoming-events-wrapper .single-event .time-and-media small {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.upcoming-events-wrapper .single-event .time-and-media .link-arrow {
+  color: #fff;
+  background-color: var(--brand-color);
+  margin: 0;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 2px solid var(--brand-color);
+  transition: all 300ms;
+}
+.upcoming-events-wrapper .single-event:hover .time-and-media .link-arrow {
+  color: var(--brand-color);
+  background-color: transparent;
+}

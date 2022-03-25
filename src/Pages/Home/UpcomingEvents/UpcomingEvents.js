@@ -13,53 +13,104 @@ const UpcomingEvents = () => {
         </div>
         <Row>
           <Col md={4}>
-            <div className="single-event">
+            <div className="single-event red">
               <h5>May</h5>
               <h5>27</h5>
 
-              <h3>Macquarie University, Sydney, Australia</h3>
+              <h3>University of California, Los Angeles (UCLA)</h3>
               <div className="time-and-media">
                 <div>
                   <small>2:30 pm - 5:50 pm</small>
                   <small>Via Zoom</small>
                 </div>
-                <span>
+                <a className="link-arrow" href="/">
                   <FontAwesomeIcon icon={faArrowRightLong} />
-                </span>
+                </a>
               </div>
             </div>
           </Col>
           <Col md={4}>
-            <div className="single-event">
-              <h5>May</h5>
+            <div className="single-event silver">
+              <h5>April</h5>
               <h5>27</h5>
 
-              <h3>Macquarie University, Sydney, Australia</h3>
+              <h3>Virginia Polytechnic Institute (Virginia Tech)</h3>
               <div className="time-and-media">
                 <div>
                   <small>2:30 pm - 5:50 pm</small>
                   <small>Via Zoom</small>
                 </div>
-                <span>
+                <a className="link-arrow" href="/">
                   <FontAwesomeIcon icon={faArrowRightLong} />
-                </span>
+                </a>
               </div>
             </div>
           </Col>
           <Col md={4}>
-            <div className="single-event">
+            <div className="single-event red">
               <h5>May</h5>
-              <h5>27</h5>
+              <h5>15</h5>
 
-              <h3>Macquarie University, Sydney, Australia</h3>
+              <h3>University of Alberta, Canada</h3>
               <div className="time-and-media">
                 <div>
                   <small>2:30 pm - 5:50 pm</small>
                   <small>Via Zoom</small>
                 </div>
-                <span>
+                <a className="link-arrow" href="/">
                   <FontAwesomeIcon icon={faArrowRightLong} />
-                </span>
+                </a>
+              </div>
+            </div>
+          </Col>
+          <Col md={4}>
+            <div className="single-event silver">
+              <h5>June</h5>
+              <h5>30</h5>
+
+              <h3>The University of Manchester, London, UK</h3>
+              <div className="time-and-media">
+                <div>
+                  <small>2:30 pm - 5:50 pm</small>
+                  <small>Via Zoom</small>
+                </div>
+                <a className="link-arrow" href="/">
+                  <FontAwesomeIcon icon={faArrowRightLong} />
+                </a>
+              </div>
+            </div>
+          </Col>
+          <Col md={4}>
+            <div className="single-event red">
+              <h5>July</h5>
+              <h5>23</h5>
+
+              <h3>London School of Economics and Political Science</h3>
+              <div className="time-and-media">
+                <div>
+                  <small>2:30 pm - 5:50 pm</small>
+                  <small>Via Zoom</small>
+                </div>
+                <a className="link-arrow" href="/">
+                  <FontAwesomeIcon icon={faArrowRightLong} />
+                </a>
+              </div>
+            </div>
+          </Col>
+          <Col md={4}>
+            <div className="single-event silver">
+              <h5>April</h5>
+              <h5>17</h5>
+
+              <h3>McGill University, Canada</h3>
+              <div className="time-and-media">
+                <div>
+                  <small>2:30 pm - 5:50 pm</small>
+                  <small>Via Zoom</small>
+                </div>
+                <a className="link-arrow" href="/">
+                  <FontAwesomeIcon icon={faArrowRightLong} />
+                </a>
               </div>
             </div>
           </Col>
