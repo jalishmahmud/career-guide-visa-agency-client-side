@@ -11,13 +11,14 @@
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-bottom: 20px;
+  font-weight: 600;
 }
 .footer-content h6 {
   color: #fff;
   font-size: 15px;
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-weight: 300;
+  font-weight: 500;
 }
 .footer-content ul {
   padding: 0;

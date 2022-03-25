@@ -1,6 +1,7 @@
 import React from "react";
 import Footer from "../../Shared/Footer/Footer";
 import Navigation from "../../Shared/Navigation/Navigation";
+import FeaturedUniversity from "../FeaturedUniversity/FeaturedUniversity";
 import HowWeWork from "../HowWeWork/HowWeWork";
 import SelectedCountry from "../SelectedCountry/SelectedCountry";
 import Slider from "../Slider/Slider";
@@ -15,6 +16,7 @@ const Home = () => {
       <SelectedCountry></SelectedCountry>
       <HowWeWork></HowWeWork>
       <UpcomingEvents></UpcomingEvents>
+      <FeaturedUniversity></FeaturedUniversity>
       <Footer></Footer>
     </div>
   );

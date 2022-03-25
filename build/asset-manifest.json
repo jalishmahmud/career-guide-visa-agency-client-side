@@ -1,20 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.a02b501e.css",
-    "main.js": "/static/js/main.52176906.js",
+    "main.css": "/static/css/main.779dda10.css",
+    "main.js": "/static/js/main.2b4c6d44.js",
     "static/js/787.04647a17.chunk.js": "/static/js/787.04647a17.chunk.js",
     "static/media/slider4.jpg": "/static/media/slider4.fcf958b9af446654dbb9.jpg",
     "static/media/slider3.jpg": "/static/media/slider3.2495369cb6256ba0b0d5.jpg",
     "static/media/slider1.jpg": "/static/media/slider1.5c2a945f46bbd2938956.jpg",
     "static/media/slider2.jpg": "/static/media/slider2.11a918d390dd91f02ecb.jpg",
+    "static/media/how-we-works-bg.jpg": "/static/media/how-we-works-bg.24797bf1fbbc73f17b66.jpg",
+    "static/media/turkey.jpg": "/static/media/turkey.c028a038cd35d1c4c6fb.jpg",
+    "static/media/usa.jpg": "/static/media/usa.a47bf748716aa24b9fb5.jpg",
+    "static/media/london.jpg": "/static/media/london.68bbee060e562770e803.jpg",
+    "static/media/australia.jpg": "/static/media/australia.801d25f1cf06a4518c42.jpg",
+    "static/media/japan.jpg": "/static/media/japan.ffece1fb9f22672cc043.jpg",
+    "static/media/canada.jpg": "/static/media/canada.5565ac90193de299fa7c.jpg",
     "static/media/career-guide-footer-logo.png": "/static/media/career-guide-footer-logo.677a42b753e95269b35a.png",
     "index.html": "/index.html",
-    "main.a02b501e.css.map": "/static/css/main.a02b501e.css.map",
-    "main.52176906.js.map": "/static/js/main.52176906.js.map",
+    "main.779dda10.css.map": "/static/css/main.779dda10.css.map",
+    "main.2b4c6d44.js.map": "/static/js/main.2b4c6d44.js.map",
     "787.04647a17.chunk.js.map": "/static/js/787.04647a17.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a02b501e.css",
-    "static/js/main.52176906.js"
+    "static/css/main.779dda10.css",
+    "static/js/main.2b4c6d44.js"
   ]
 }

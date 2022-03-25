@@ -21,7 +21,7 @@ const UpcomingEvents = () => {
               <div className="time-and-media">
                 <div>
                   <small>2:30 pm - 5:50 pm</small>
-                  <small>Via Zoom</small>
+                  <small>At Office</small>
                 </div>
                 <a className="link-arrow" href="/">
                   <FontAwesomeIcon icon={faArrowRightLong} />
@@ -38,7 +38,7 @@ const UpcomingEvents = () => {
               <div className="time-and-media">
                 <div>
                   <small>2:30 pm - 5:50 pm</small>
-                  <small>Via Zoom</small>
+                  <small>At Hotel Pan Pacific, Dhaka</small>
                 </div>
                 <a className="link-arrow" href="/">
                   <FontAwesomeIcon icon={faArrowRightLong} />
@@ -72,7 +72,7 @@ const UpcomingEvents = () => {
               <div className="time-and-media">
                 <div>
                   <small>2:30 pm - 5:50 pm</small>
-                  <small>Via Zoom</small>
+                  <small>At Hotel Lakeshore, Gulshan</small>
                 </div>
                 <a className="link-arrow" href="/">
                   <FontAwesomeIcon icon={faArrowRightLong} />
@@ -106,7 +106,7 @@ const UpcomingEvents = () => {
               <div className="time-and-media">
                 <div>
                   <small>2:30 pm - 5:50 pm</small>
-                  <small>Via Zoom</small>
+                  <small>At Office</small>
                 </div>
                 <a className="link-arrow" href="/">
                   <FontAwesomeIcon icon={faArrowRightLong} />
