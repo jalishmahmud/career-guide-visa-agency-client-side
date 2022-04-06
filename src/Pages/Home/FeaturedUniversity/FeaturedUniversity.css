@@ -1,3 +1,7 @@
 .featured-university-wrapper {
   margin-top: 100px;
 }
+.featured-university-wrapper img {
+  margin-bottom: 30px;
+  border-left: 5px solid var(--brand-color);
+}
