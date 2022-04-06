@@ -85,7 +85,7 @@ const UpcomingEvents = () => {
               <h5>July</h5>
               <h5>23</h5>
 
-              <h3>London School of Economics and Political Science</h3>
+              <h3>London School of Economics and Science</h3>
               <div className="time-and-media">
                 <div>
                   <small>2:30 pm - 5:50 pm</small>
