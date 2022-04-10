@@ -4,6 +4,7 @@ import HowWeWork from "../HowWeWork/HowWeWork";
 import SelectedCountry from "../SelectedCountry/SelectedCountry";
 import Slider from "../Slider/Slider";
 import UpcomingEvents from "../UpcomingEvents/UpcomingEvents";
+import WhatMakesUsDifferent from "../WhatMakesUsDifferent/WhatMakesUsDifferent";
 import "./Home.css";
 
 const Home = () => {
@@ -11,6 +12,7 @@ const Home = () => {
     <div className="home">
       <Slider></Slider>
       <SelectedCountry></SelectedCountry>
+      <WhatMakesUsDifferent></WhatMakesUsDifferent>
       <HowWeWork></HowWeWork>
       <UpcomingEvents></UpcomingEvents>
       <FeaturedUniversity></FeaturedUniversity>

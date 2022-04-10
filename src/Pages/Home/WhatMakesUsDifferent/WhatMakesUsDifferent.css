@@ -1,0 +1,28 @@
+.what-makes-us-different-wrapper .single-reason {
+  margin-bottom: 30px;
+  padding-right: 20px;
+}
+.what-makes-us-different-wrapper h3 {
+  font-size: 30px;
+  font-weight: 500;
+  margin: 20px 0;
+  padding-bottom: 20px;
+  position: relative;
+}
+.what-makes-us-different-wrapper h3::after {
+  content: "";
+  position: absolute;
+  border-bottom: 5px solid var(--brand-color);
+  width: 80px;
+  height: 5px;
+  background-color: var(--brand-color);
+  bottom: 0;
+  left: 0;
+}
+.what-makes-us-different-wrapper P {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: justify;
+  color: var(--grey-color);
+}

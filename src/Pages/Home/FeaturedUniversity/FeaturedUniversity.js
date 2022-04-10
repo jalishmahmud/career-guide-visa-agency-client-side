@@ -1,5 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
+import Slider from "react-slick";
 import logo1 from "../../../images/university-logo/logo-1.png";
 import logo10 from "../../../images/university-logo/logo-10.png";
 import logo11 from "../../../images/university-logo/logo-11.png";
@@ -20,6 +21,43 @@ import logo8 from "../../../images/university-logo/logo-8.png";
 import logo9 from "../../../images/university-logo/logo-9.png";
 import "./FeaturedUniversity.css";
 const FeaturedUniversity = () => {
+  const settings = {
+    dots: false,
+    infinite: true,
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    autoplay: true,
+    speed: 2000,
+    autoplaySpeed: 1000,
+    cssEase: "linear",
+    pauseOnHover: false,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  };
   return (
     <div className="featured-university-wrapper">
       <Container>
@@ -27,61 +65,100 @@ const FeaturedUniversity = () => {
           <h2>Our Selected Universities</h2>
           <h5>We have selected best universities for your hight education</h5>
         </div>
+
         <Row>
-          <Col md={2}>
-            <img className="img-fluid" src={logo1} alt="" />
-          </Col>
-          <Col md={2}>
-            <img className="img-fluid" src={logo2} alt="" />
-          </Col>
-          <Col md={2}>
-            <img className="img-fluid" src={logo3} alt="" />
-          </Col>
-          <Col md={2}>
-            <img className="img-fluid" src={logo4} alt="" />
-          </Col>
-          <Col md={2}>
-            <img className="img-fluid" src={logo5} alt="" />
-          </Col>
-          <Col md={2}>
-            <img className="img-fluid" src={logo6} alt="" />
-          </Col>
-          <Col md={2}>
-            <img className="img-fluid" src={logo19} alt="" />
-          </Col>
-          <Col md={2}>
-            <img className="img-fluid" src={logo8} alt="" />
-          </Col>
-          <Col md={2}>
-            <img className="img-fluid" src={logo9} alt="" />
-          </Col>
-          <Col md={2}>
-            <img className="img-fluid" src={logo10} alt="" />
-          </Col>
-          <Col md={2}>
-            <img className="img-fluid" src={logo11} alt="" />
-          </Col>
-          <Col md={2}>
-            <img className="img-fluid" src={logo12} alt="" />
-          </Col>
-          <Col md={2}>
-            <img className="img-fluid" src={logo13} alt="" />
-          </Col>
-          <Col md={2}>
-            <img className="img-fluid" src={logo14} alt="" />
-          </Col>
-          <Col md={2}>
-            <img className="img-fluid" src={logo15} alt="" />
-          </Col>
-          <Col md={2}>
-            <img className="img-fluid" src={logo16} alt="" />
-          </Col>
-          <Col md={2}>
-            <img className="img-fluid" src={logo17} alt="" />
-          </Col>
-          <Col md={2}>
-            <img className="img-fluid" src={logo18} alt="" />
-          </Col>
+          <Slider {...settings}>
+            <div>
+              <Row className="p-3">
+                <Col md={12}>
+                  <img className="img-fluid" src={logo1} alt="" />
+                </Col>
+                <Col md={12}>
+                  <img className="img-fluid" src={logo2} alt="" />
+                </Col>
+              </Row>
+            </div>
+            <div>
+              <Row className="p-3">
+                <Col md={12}>
+                  <img className="img-fluid" src={logo3} alt="" />
+                </Col>
+                <Col md={12}>
+                  <img className="img-fluid" src={logo4} alt="" />
+                </Col>
+              </Row>
+            </div>
+            <div>
+              <Row className="p-3">
+                <Col md={12}>
+                  <img className="img-fluid" src={logo5} alt="" />
+                </Col>
+                <Col md={12}>
+                  <img className="img-fluid" src={logo6} alt="" />
+                </Col>
+              </Row>
+            </div>
+            <div>
+              <Row className="p-3">
+                <Col md={12}>
+                  <img className="img-fluid" src={logo19} alt="" />
+                </Col>
+                <Col md={12}>
+                  <img className="img-fluid" src={logo8} alt="" />
+                </Col>
+              </Row>
+            </div>
+            <div>
+              <Row className="p-3">
+                <Col md={12}>
+                  <img className="img-fluid" src={logo9} alt="" />
+                </Col>
+                <Col md={12}>
+                  <img className="img-fluid" src={logo10} alt="" />
+                </Col>
+              </Row>
+            </div>
+            <div>
+              <Row className="p-3">
+                <Col md={12}>
+                  <img className="img-fluid" src={logo11} alt="" />
+                </Col>
+                <Col md={12}>
+                  <img className="img-fluid" src={logo12} alt="" />
+                </Col>
+              </Row>
+            </div>
+            <div>
+              <Row className="p-3">
+                <Col md={12}>
+                  <img className="img-fluid" src={logo13} alt="" />
+                </Col>
+                <Col md={12}>
+                  <img className="img-fluid" src={logo14} alt="" />
+                </Col>
+              </Row>
+            </div>
+            <div>
+              <Row className="p-3">
+                <Col md={12}>
+                  <img className="img-fluid" src={logo15} alt="" />
+                </Col>
+                <Col md={12}>
+                  <img className="img-fluid" src={logo16} alt="" />
+                </Col>
+              </Row>
+            </div>
+            <div>
+              <Row className="p-3">
+                <Col md={12}>
+                  <img className="img-fluid" src={logo17} alt="" />
+                </Col>
+                <Col md={12}>
+                  <img className="img-fluid" src={logo18} alt="" />
+                </Col>
+              </Row>
+            </div>
+          </Slider>
         </Row>
       </Container>
     </div>
