@@ -5,7 +5,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import "./UpcomingEvents.css";
 const UpcomingEvents = () => {
   return (
-    <div className="upcoming-events-wrapper">
+    <div id="events" className="upcoming-events-wrapper">
       <Container>
         <div className="section-title text-center">
           <h2>Our Upcoming Events</h2>

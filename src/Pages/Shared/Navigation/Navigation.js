@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import careerGuideLogo from "../../../images/career-guide-logo.png";
 import "./Navigation.css";
 const Navigation = () => {
@@ -22,11 +23,21 @@ const Navigation = () => {
             Home
           </Nav.Link>
           <Nav.Link as={Link} to="/about">
-            About Us
+            About
           </Nav.Link>
-          <Nav.Link as={Link} to="/services">
+          <Nav.Link as={HashLink} to="/home/#services">
             Services
           </Nav.Link>
+          <Nav.Link as={HashLink} to="/home/#events">
+            Events
+          </Nav.Link>
+          <Nav.Link as={HashLink} to="/home/#why-us">
+            Why CGI
+          </Nav.Link>
+          <Nav.Link as={HashLink} to="/home/#hwo-we-work">
+            How We Work
+          </Nav.Link>
+
           <Nav.Link as={Link} to="/contact">
             Contact
           </Nav.Link>

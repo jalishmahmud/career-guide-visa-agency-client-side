@@ -6,7 +6,7 @@ import transparency from "../../../images/transparency.jpg";
 import "./WhatMakesUsDifferent.css";
 const WhatMakesUsDifferent = () => {
   return (
-    <div className="what-makes-us-different-wrapper">
+    <div id="why-us" className="what-makes-us-different-wrapper">
       <Container>
         <div className="section-title text-center">
           <h2>What Makes Us Different</h2>

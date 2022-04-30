@@ -10,7 +10,7 @@ import usa from "../../../images/usa.jpg";
 import "./SelectedCountry.css";
 const SelectedCountry = () => {
   return (
-    <div className="selected-country-wrapper">
+    <div id="services" className="selected-country-wrapper ">
       <Container>
         <Row>
           <Col className="single-country" md={4}>

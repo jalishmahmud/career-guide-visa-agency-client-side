@@ -14,7 +14,7 @@ import "./HowWeWork.css";
 
 const HowWeWork = () => {
   return (
-    <div className="how-we-work-wrapper text-center">
+    <div id="hwo-we-work" className="how-we-work-wrapper text-center">
       <Container>
         <div className="section-title">
           <h2>How We Work</h2>
