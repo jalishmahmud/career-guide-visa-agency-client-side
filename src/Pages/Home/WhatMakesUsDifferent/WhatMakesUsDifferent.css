@@ -1,13 +1,24 @@
 .what-makes-us-different-wrapper .single-reason {
+  background: #fff;
+  padding: 20px 25px;
+  border-radius: 6px;
+  box-shadow: 0 0.25rem 0.5rem rgb(0 0 0 / 5%), 0 1.5rem 2.2rem rgb(0 0 0 / 10%);
   margin-bottom: 30px;
-  padding-right: 20px;
+  transition: all 0.3s ease-in-out;
+}
+.what-makes-us-different-wrapper .single-reason:hover {
+  box-shadow: 0 0.25rem 0.5rem rgb(0 0 0 / 10%),
+    0 1.5rem 2.2rem rgb(0 0 0 / 20%);
+  margin-bottom: 30px;
 }
 .what-makes-us-different-wrapper h3 {
-  font-size: 30px;
-  font-weight: 500;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 31px;
   margin: 20px 0;
   padding-bottom: 20px;
   position: relative;
+  color: #343a40;
 }
 .what-makes-us-different-wrapper h3::after {
   content: "";
@@ -20,9 +31,4 @@
   left: 0;
 }
 .what-makes-us-different-wrapper P {
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 28px;
-  text-align: justify;
-  color: var(--grey-color);
 }

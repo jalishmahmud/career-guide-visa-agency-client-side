@@ -1,9 +1,9 @@
 import React from "react";
 import PageTitle from "../PageTitle/PageTitle";
-
+import "./About.css";
 const About = () => {
   return (
-    <>
+    <div className="about-us">
       <PageTitle title="About Us"></PageTitle>
       <div className="container">
         <p>
@@ -20,7 +20,7 @@ const About = () => {
           years. We flaunt an extensive network of satisfied students and
         </p>
       </div>
-    </>
+    </div>
   );
 };
 

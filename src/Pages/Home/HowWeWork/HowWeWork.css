@@ -14,8 +14,9 @@
 }
 
 .section-title h2 {
-  font-size: 36px;
-  font-weight: 600;
+  font-size: 40px;
+  line-height: 61px;
+  font-weight: 700;
   margin-bottom: 10px;
 }
 .section-title h5 {

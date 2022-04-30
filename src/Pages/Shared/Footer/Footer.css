@@ -35,7 +35,7 @@
 .footer-content ul li a:hover {
   color: #e12429;
 }
-.footer-content span {
+.footer-content a span {
   font-size: 14px;
   border: 1px solid #fff;
   padding: 3px 10px;
@@ -44,9 +44,15 @@
   margin: 5px;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
+  color: #a7a7a7;
 }
 .footer-content span:hover {
   border: 1px solid #e12429;
+}
+.footer-content p {
+  text-align: inherit;
+  font-family: "Poppins", sans-serif !important;
+  color: #a7a7a7 !important;
 }
 .footer-content p a {
   text-decoration: none;

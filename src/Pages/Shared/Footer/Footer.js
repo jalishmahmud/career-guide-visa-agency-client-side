@@ -1,5 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import careerGuideFooterLogo from "../../../images/career-guide-footer-logo.png";
 import "./Footer.css";
 const Footer = () => {
@@ -18,40 +19,52 @@ const Footer = () => {
               Established in 2019, Career Guide International is a
               student-oriented organization dedicated to helping individuals
               continue their academic journey beyond national borders.
-              <a className="" href="/">
-                learn more
-              </a>
+              <Link to="/about">learn more</Link>
             </p>
           </Col>
 
           <Col className="py-4" xs={12} md={3}>
             <h4>Popular Services</h4>
-            <span>Study In USA</span>
-            <span>Study In UK</span>
-            <span>Study In Canada</span>
-            <span>Study In Australia</span>
-            <span>Study In Turkey</span>
+            <Link to="study-in-usa">
+              <span>Study In USA</span>
+            </Link>
+            <Link to="study-in-canada">
+              <span>Study In Canada</span>
+            </Link>
+            <Link to="study-in-uk">
+              <span>Study In UK</span>
+            </Link>
+            <Link to="study-in-australia">
+              <span>Study In Australia</span>
+            </Link>
+            <Link to="study-in-malaysia">
+              <span>Study In Malaysia</span>
+            </Link>
+            <Link to="study-in-turkey">
+              <span>Study In Turkey</span>
+            </Link>
           </Col>
           <Col className="py-4" xs={12} md={3}>
             <h4>Customer Service</h4>
             <ul>
               <li>
-                <a href="/">About Us</a>
+                <a href="/about">About Us</a>
+              </li>
+
+              <li>
+                <a href="/contact">Contact Us</a>
               </li>
               <li>
-                <a href="/">Careers</a>
+                <a href="/faqs">Help And FAQs</a>
               </li>
               <li>
-                <a href="/">Help And FAQs</a>
+                <a href="/career">Career</a>
               </li>
               <li>
-                <a href="/">Popular Services</a>
+                <a href="/terms-and-conditions">Terms And Conditions</a>
               </li>
               <li>
-                <a href="/">Corporate Support</a>
-              </li>
-              <li>
-                <a href="/">Privacy Policy</a>
+                <a href="/privacy-policy">Privacy Policy</a>
               </li>
             </ul>
           </Col>

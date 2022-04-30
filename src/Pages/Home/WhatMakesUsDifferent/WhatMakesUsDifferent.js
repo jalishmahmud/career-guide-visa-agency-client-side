@@ -13,39 +13,45 @@ const WhatMakesUsDifferent = () => {
           <h5>Yes! We believe in Integrity and Transparency</h5>
         </div>
         <Row>
-          <Col className="single-reason" md={4}>
-            <img className="img-fluid" src={integrity} alt="" />
-            <h3>Integrity</h3>
-            <p>
-              To us, helping even a single student build their educational and
-              professional career abroad matters. We never deploy cookie-cutter
-              strategies when dealing with our clients, rather, personalize the
-              service to their needs. In that, Career Guide International
-              operates with integrity and goes the extra mile to bring you
-              closer to the life of your dreams.
-            </p>
+          <Col md={4}>
+            <div className="single-reason">
+              <img className="img-fluid" src={integrity} alt="" />
+              <h3>Integrity</h3>
+              <p>
+                To us, helping even a single student build their educational and
+                professional career abroad matters. We never deploy
+                cookie-cutter strategies when dealing with our clients, rather,
+                personalize the service to their needs. In that, Career Guide
+                International operates with integrity and goes the extra mile to
+                bring you closer to the life of your dreams.
+              </p>
+            </div>
           </Col>
 
-          <Col className="single-reason" md={4}>
-            <img className="img-fluid" src={transparency} alt="" />
-            <h3>Transparency</h3>
-            <p>
-              At Career Guide International, the student is our top priority. We
-              are the kind of consultancy that never puts you at a disadvantage,
-              sets fair prices for its services, and stays far away from hidden
-              charges. Rest assured; our student solutions are bound to reap
-              limitless benefits!
-            </p>
+          <Col md={4}>
+            <div className="single-reason">
+              <img className="img-fluid" src={transparency} alt="" />
+              <h3>Transparency</h3>
+              <p>
+                At Career Guide International, the student is our top priority.
+                We are the kind of consultancy that never puts you at a
+                disadvantage, sets fair prices for its services, and stays far
+                away from hidden charges. Rest assured; our student solutions
+                are bound to reap limitless benefits!
+              </p>
+            </div>
           </Col>
-          <Col className="single-reason" md={4}>
-            <img className="img-fluid" src={extensiveNetwork} alt="" />
-            <h3>Extensive Network</h3>
-            <p>
-              We are partnered with a long list of renowned universities across
-              Australia, Canada, the US, and the UK. This broadens your
-              perspective, thus, allowing you to choose the most suitable
-              institute without settling.
-            </p>
+          <Col md={4}>
+            <div className="single-reason">
+              <img className="img-fluid" src={extensiveNetwork} alt="" />
+              <h3>Extensive Network</h3>
+              <p>
+                We are partnered with a long list of renowned universities
+                across Australia, Canada, the US, and the UK. This broadens your
+                perspective, thus, allowing you to choose the most suitable
+                institute without settling.
+              </p>
+            </div>
           </Col>
         </Row>
       </Container>
