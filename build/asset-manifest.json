@@ -1,13 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.611714e6.css",
-    "main.js": "/static/js/main.b48e1b6b.js",
+    "main.css": "/static/css/main.1512b286.css",
+    "main.js": "/static/js/main.0853b15d.js",
     "static/js/787.04647a17.chunk.js": "/static/js/787.04647a17.chunk.js",
-    "static/media/slider4.jpg": "/static/media/slider4.fcf958b9af446654dbb9.jpg",
-    "static/media/slider3.jpg": "/static/media/slider3.2495369cb6256ba0b0d5.jpg",
-    "static/media/slider1.jpg": "/static/media/slider1.5c2a945f46bbd2938956.jpg",
-    "static/media/slider2.jpg": "/static/media/slider2.11a918d390dd91f02ecb.jpg",
+    "static/media/europe-banner.jpg": "/static/media/europe-banner.b3acefca8aebc5d3b6de.jpg",
+    "static/media/usa-banner.jpg": "/static/media/usa-banner.f5f9f40ea53d9753da1d.jpg",
+    "static/media/au-banner.jpg": "/static/media/au-banner.f6fbf869319cb60b2211.jpg",
+    "static/media/uk-banner.jpg": "/static/media/uk-banner.499c774a9bc0bd30968f.jpg",
+    "static/media/page-title-bg.jpg": "/static/media/page-title-bg.25afca79632f34681049.jpg",
+    "static/media/malaysia-banner.jpg": "/static/media/malaysia-banner.4d964744afed6d28249f.jpg",
     "static/media/how-we-works-bg.jpg": "/static/media/how-we-works-bg.24797bf1fbbc73f17b66.jpg",
+    "static/media/canada-banner.jpg": "/static/media/canada-banner.9f474cf2a4c3483146e4.jpg",
     "static/media/logo-10.png": "/static/media/logo-10.8b996375150d95919b0c.png",
     "static/media/logo-9.png": "/static/media/logo-9.0eef09a5aa572fbc56ba.png",
     "static/media/logo-4.png": "/static/media/logo-4.368c581678e7c687d2dd.png",
@@ -39,12 +42,12 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.611714e6.css.map": "/static/css/main.611714e6.css.map",
-    "main.b48e1b6b.js.map": "/static/js/main.b48e1b6b.js.map",
+    "main.1512b286.css.map": "/static/css/main.1512b286.css.map",
+    "main.0853b15d.js.map": "/static/js/main.0853b15d.js.map",
     "787.04647a17.chunk.js.map": "/static/js/787.04647a17.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.611714e6.css",
-    "static/js/main.b48e1b6b.js"
+    "static/css/main.1512b286.css",
+    "static/js/main.0853b15d.js"
   ]
 }
