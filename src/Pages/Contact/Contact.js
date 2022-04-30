@@ -1,11 +1,8 @@
 import React from "react";
+import PageTitle from "../PageTitle/PageTitle";
 
 const Contact = () => {
-  return (
-    <div className="container">
-      <h2>Contact</h2>
-    </div>
-  );
+  return <PageTitle title="Contact Us" />;
 };
 
 export default Contact;

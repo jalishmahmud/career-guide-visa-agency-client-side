@@ -1,11 +1,8 @@
 import React from "react";
+import PageTitle from "../PageTitle/PageTitle";
 
 const Services = () => {
-  return (
-    <div className="container">
-      <h2>Services</h2>
-    </div>
-  );
+  return <PageTitle title="Our Service" />;
 };
 
 export default Services;
