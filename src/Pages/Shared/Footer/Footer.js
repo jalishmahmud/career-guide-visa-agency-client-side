@@ -48,23 +48,23 @@ const Footer = () => {
             <h4>Customer Service</h4>
             <ul>
               <li>
-                <a href="/about">About Us</a>
+                <Link to="/about">About Us</Link>
               </li>
 
               <li>
-                <a href="/contact">Contact Us</a>
+                <Link to="/contact">Contact Us</Link>
               </li>
               <li>
-                <a href="/faqs">Help And FAQs</a>
+                <Link to="/faqs">Help And FAQs</Link>
               </li>
               <li>
-                <a href="/career">Career</a>
+                <Link to="/career">Career</Link>
               </li>
               <li>
-                <a href="/terms-and-conditions">Terms And Conditions</a>
+                <Link to="/terms-and-conditions">Terms And Conditions</Link>
               </li>
               <li>
-                <a href="/privacy-policy">Privacy Policy</a>
+                <Link to="/privacy-policy">Privacy Policy</Link>
               </li>
             </ul>
           </Col>

@@ -1,8 +1,11 @@
+import {
+  faHourglass,
+  faMagnifyingGlassPlus,
+  faNetworkWired,
+} from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import integrity from "../../../images//integrity.jpg";
-import extensiveNetwork from "../../../images/extensive-network.jpg";
-import transparency from "../../../images/transparency.jpg";
 import "./WhatMakesUsDifferent.css";
 const WhatMakesUsDifferent = () => {
   return (
@@ -15,7 +18,10 @@ const WhatMakesUsDifferent = () => {
         <Row>
           <Col md={4}>
             <div className="single-reason">
-              <img className="img-fluid" src={integrity} alt="" />
+              {/* <img className="img-fluid" src={integrity} alt="" /> */}
+              <span>
+                <FontAwesomeIcon icon={faHourglass} />
+              </span>
               <h3>Integrity</h3>
               <p>
                 To us, helping even a single student build their educational and
@@ -30,7 +36,10 @@ const WhatMakesUsDifferent = () => {
 
           <Col md={4}>
             <div className="single-reason">
-              <img className="img-fluid" src={transparency} alt="" />
+              {/* <img className="img-fluid" src={transparency} alt="" /> */}
+              <span>
+                <FontAwesomeIcon icon={faMagnifyingGlassPlus} />
+              </span>
               <h3>Transparency</h3>
               <p>
                 At Career Guide International, the student is our top priority.
@@ -43,7 +52,10 @@ const WhatMakesUsDifferent = () => {
           </Col>
           <Col md={4}>
             <div className="single-reason">
-              <img className="img-fluid" src={extensiveNetwork} alt="" />
+              {/* <img className="img-fluid" src={extensiveNetwork} alt="" /> */}
+              <span>
+                <FontAwesomeIcon icon={faNetworkWired} />
+              </span>
               <h3>Extensive Network</h3>
               <p>
                 We are partnered with a long list of renowned universities
