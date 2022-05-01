@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.65cf81c6.css",
-    "main.js": "/static/js/main.0e364bee.js",
+    "main.css": "/static/css/main.d44e9fdb.css",
+    "main.js": "/static/js/main.0341159a.js",
     "static/js/787.04647a17.chunk.js": "/static/js/787.04647a17.chunk.js",
     "static/media/europe-banner.jpg": "/static/media/europe-banner.b3acefca8aebc5d3b6de.jpg",
     "static/media/usa-banner.jpg": "/static/media/usa-banner.f5f9f40ea53d9753da1d.jpg",
@@ -10,23 +10,22 @@
     "static/media/page-title-bg.jpg": "/static/media/page-title-bg.25afca79632f34681049.jpg",
     "static/media/malaysia-banner.jpg": "/static/media/malaysia-banner.4d964744afed6d28249f.jpg",
     "static/media/how-we-works-bg.jpg": "/static/media/how-we-works-bg.24797bf1fbbc73f17b66.jpg",
-    "static/media/canada-banner.jpg": "/static/media/canada-banner.9f474cf2a4c3483146e4.jpg",
+    "static/media/canada-banner.jpg": "/static/media/canada-banner.df5bcf6f4b0e63310265.jpg",
     "static/media/logo-10.png": "/static/media/logo-10.8b996375150d95919b0c.png",
     "static/media/logo-9.png": "/static/media/logo-9.0eef09a5aa572fbc56ba.png",
     "static/media/logo-4.png": "/static/media/logo-4.368c581678e7c687d2dd.png",
-    "static/media/extensive-network.jpg": "/static/media/extensive-network.cd89992e85c9e26a47d1.jpg",
+    "static/media/about-us-1.jpg": "/static/media/about-us-1.7e0169b8069a538eb310.jpg",
     "static/media/logo-14.png": "/static/media/logo-14.c2a5b68eecfef2d1d5c3.png",
     "static/media/turkey.jpg": "/static/media/turkey.c028a038cd35d1c4c6fb.jpg",
     "static/media/logo-16.png": "/static/media/logo-16.14d9b980e571b5fca051.png",
+    "static/media/about-us-2.jpg": "/static/media/about-us-2.ae79e29fd25efd4df533.jpg",
     "static/media/usa.jpg": "/static/media/usa.a47bf748716aa24b9fb5.jpg",
     "static/media/logo-18.png": "/static/media/logo-18.63556334f3cae08664bc.png",
     "static/media/london.jpg": "/static/media/london.68bbee060e562770e803.jpg",
     "static/media/australia.jpg": "/static/media/australia.801d25f1cf06a4518c42.jpg",
-    "static/media/transparency.jpg": "/static/media/transparency.c91a1f967d910390891c.jpg",
     "static/media/japan.jpg": "/static/media/japan.ffece1fb9f22672cc043.jpg",
     "static/media/logo-3.png": "/static/media/logo-3.6be37aca95cf9758d653.png",
     "static/media/logo-15.png": "/static/media/logo-15.977f193b980e2f7c1b47.png",
-    "static/media/integrity.jpg": "/static/media/integrity.90f5fbd54c2f25157d9d.jpg",
     "static/media/logo-6.png": "/static/media/logo-6.84e209b140ceec7c62f5.png",
     "static/media/canada.jpg": "/static/media/canada.5565ac90193de299fa7c.jpg",
     "static/media/logo-13.png": "/static/media/logo-13.fdd6678cfe61b038547d.png",
@@ -42,12 +41,12 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.65cf81c6.css.map": "/static/css/main.65cf81c6.css.map",
-    "main.0e364bee.js.map": "/static/js/main.0e364bee.js.map",
+    "main.d44e9fdb.css.map": "/static/css/main.d44e9fdb.css.map",
+    "main.0341159a.js.map": "/static/js/main.0341159a.js.map",
     "787.04647a17.chunk.js.map": "/static/js/787.04647a17.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.65cf81c6.css",
-    "static/js/main.0e364bee.js"
+    "static/css/main.d44e9fdb.css",
+    "static/js/main.0341159a.js"
   ]
 }
