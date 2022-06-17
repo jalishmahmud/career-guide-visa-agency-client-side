@@ -19,23 +19,23 @@ const SelectedCountry = () => {
           </Col>
           <Col className="single-country" md={4}>
             <img className="img-fluid" src={canada} alt="" />
-            <a href="/study-in-canada">Study In Canada</a>
+            <Link to="/study-in-canada">Study In Canada</Link>
           </Col>
           <Col className="single-country" md={4}>
             <img className="img-fluid" src={uk} alt="" />
-            <a href="/study-in-uk">Study In UK</a>
+            <Link to="/study-in-uk">Study In UK</Link>
           </Col>
           <Col className="single-country" md={4}>
             <img className="img-fluid" src={australia} alt="" />
-            <a href="/study-in-australia">Study In Australia</a>
+            <Link to="/study-in-australia">Study In Australia</Link>
           </Col>
           <Col className="single-country" md={4}>
             <img className="img-fluid" src={japan} alt="" />
-            <a href="/study-in-malaysia">Study In Malaysia</a>
+            <Link to="/study-in-malaysia">Study In Malaysia</Link>
           </Col>
           <Col className="single-country" md={4}>
             <img className="img-fluid" src={turkey} alt="" />
-            <a href="/study-in-turkey">Study In Turkey</a>
+            <Link to="/study-in-turkey">Study In Turkey</Link>
           </Col>
         </Row>
       </Container>

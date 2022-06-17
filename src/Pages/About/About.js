@@ -1,18 +1,18 @@
 import React from "react";
-import { Col, Nav, Row } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { Col, Row } from "react-bootstrap";
+
 import aboutUs1 from "../../images/about-us-1.jpg";
 import aboutUs2 from "../../images/about-us-2.jpg";
 import WhatMakesUsDifferent from "../Home/WhatMakesUsDifferent/WhatMakesUsDifferent";
 import PageTitle from "../PageTitle/PageTitle";
-import "./About.css";
+
 const About = () => {
   return (
-    <div className="about-us">
+    <div className="about-us content">
       <PageTitle title="About Us"></PageTitle>
       <div className="container">
-        <Row>
-          <Col md={10}>
+        <Row className="mb-5">
+          <Col md={12}>
             <p className="p-lg">
               Established in 2019, Career Guide International is a
               student-oriented organization dedicated to helping individuals
@@ -23,14 +23,7 @@ const About = () => {
               Canada, England, or beyond, we can assist you through the journey.
             </p>
           </Col>
-          <Col md={2} className="d-flex align-items-center">
-            <Nav.Link as={Link} className="custom-btn" to="/contact">
-              Contact Us
-            </Nav.Link>
-          </Col>
-        </Row>
-        <Row>
-          <Col>
+          <Col md={12} >
             <p className="p-sm">
               After all, it’s about making the right choice, and with our
               expertise backing you up, you’re bound to decide wisely. Due to
@@ -41,9 +34,7 @@ const About = () => {
             </p>
           </Col>
         </Row>
-      </div>
-      <div className="container">
-        <Row className="bg-gray">
+        <Row className="bg-gray mb-5">
           <Col md={6}>
             <img className="img-fluid" src={aboutUs1} alt="" />
           </Col>
@@ -66,7 +57,7 @@ const About = () => {
         </Row>
       </div>
       <div className="container">
-        <Row className="bg-gray">
+        <Row className="bg-gray mb-5">
           <Col className="d-flex justify-content-center flex-column" md={6}>
             <h3>
               Choose the <span>best fit</span>

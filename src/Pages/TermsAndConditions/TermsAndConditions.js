@@ -3,9 +3,12 @@ import PageTitle from "../PageTitle/PageTitle";
 
 const TermsAndConditions = () => {
   return (
-    <div>
+    <div >
       <PageTitle title="Terms And Conditions" />
-      <h2>Terms And Conditions</h2>
+      <div className="container text-center">
+       
+        <h3>Under Construction</h3>
+      </div>
     </div>
   );
 };

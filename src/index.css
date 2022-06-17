@@ -30,3 +30,18 @@ p.p-lg {
 p.p-sm {
   font-size: 15px;
 }
+
+.content h3 {
+  font-size: 21px;
+  line-height: 32px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.content h3 span {
+  font-weight: 700;
+}
+.bg-gray {
+  background-color: #f7f7f7;
+  padding: 50px 30px;
+  margin: 15px 0;
+}

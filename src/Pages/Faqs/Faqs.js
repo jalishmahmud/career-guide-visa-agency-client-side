@@ -5,7 +5,9 @@ const Faqs = () => {
   return (
     <div>
       <PageTitle title="Help And FAQ's" />
-      <h2>Faqs</h2>
+     <div className="container text-center">
+        <h3>Under Construction</h3>
+      </div>
     </div>
   );
 };

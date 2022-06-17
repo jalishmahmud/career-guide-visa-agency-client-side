@@ -5,7 +5,11 @@ const PrivacyPolicy = () => {
   return (
     <div>
       <PageTitle title="Privacy Policy" />
-      <h2>Privacy Policy</h2>
+    
+      <div className="container text-center">
+   
+        <h3>Under Construction</h3>
+      </div>
     </div>
   );
 };
